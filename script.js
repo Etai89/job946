@@ -7,7 +7,7 @@ function callMe() {
 // Function to open WhatsApp chat
 function whatsAppMe() {
     // Replace with your phone number in the WhatsApp link
-    const phoneNumber = "+972549832002"; // Include country code, e.g., "972501234567"
+    const phoneNumber = "972549832002"; // Include country code, e.g., "972501234567"
     const message = encodeURIComponent("היי איתי, אני מעוניינת להתחיל את העבודה מתי אתה חושב שאתה פנוי?");
     window.location.href = `https://wa.me/${phoneNumber}?text=${message}`;
 }
