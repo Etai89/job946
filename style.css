@@ -2,6 +2,14 @@
     /* display: flex; */
     height: 100px;
 }
+
+#logo{
+    background-image: url('LOGO-01.jpg');
+    background-size: 160%;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+}
 .titleRow{
     
 
@@ -17,22 +25,33 @@
 #details{
     margin-top: 40px;
     margin-bottom: 20px;
+    padding: 10px;
 }
 #mainCon{
     
 }
+.cRights{
+    direction: ltr;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 80px;
+}
 
 @media (max-width: 800px){
-    .logo{
-        width: 150px;
-        height: 150px;
-        /* position: absolute; */
+    #logo{
+        margin-top: 20px;
+        width: 400px;
+        height: 200px;
     }
     .title{
-        margin-top: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .subTitle{
+        text-align: center;
 
     }
     #details{
-        margin-top: 190px;
+        margin-top: 250px;
     }
 }

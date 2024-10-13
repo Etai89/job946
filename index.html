@@ -10,20 +10,22 @@
 </head>
 <body>
     <div id="mainCon" class="container">
-        <div class="row main">
-            <div class="col-md-2 col-12 border text-center">
-                <img class="logo" src="LOGO-01.jpg" alt="Etai Hatuel Logo">
+        <div class="row main d-flex">
+            <div id="logo" class="col-md-2 col-12 text-center">
+                <!-- <img class="logo" src="LOGO-01.jpg" alt="Etai Hatuel Logo"> -->
             </div>
             <div class="col-md-10 col-12 titleRow">
                 <h1 class="title">הצעת מחיר</h1>
-                <h4>שמחה הולצברג 11 דירה 4 קומה 1 משפחת מגן</h4>
+                <h4 class="subTitle">שמחה הולצברג 11 דירה 4 קומה 1 משפחת מגן</h4>
             </div>
         </div>
     </div>
     <div id="details" class="container">
         <div class="row">
-            <div class="col-md-12 col-12 border">
+            <div class="col-md-12 col-12  ">
+                <hr>
                 <h3>פירוט העבודה</h3>
+                
                 <p>
                     <ul><strong>סלון:</strong>
                         <li>ביטול תשתיות רמקולים.</li>
@@ -78,7 +80,7 @@
                         <li>משך העבודה בין 5 - 6 ימי עסקים (תיתכן זליגה של יום או יומיים למען ביצוע עבודה מוגמרת).</li>
                         <li>העבודה תבוצע ברמה סטנדרטית ביחס לדירה שמיועדת להשכרה.</li>
                         <li>"חומרי שחורים" כגון: צבע, שפכטל, חומרי איטום, דבק יסופקו ע"י הקבלן.</li>
-                        <li>פאנליםת גופי תאורה לארון המטבח יספוקו ע"י הלקוח.</li>
+                        <li>פאנלים גופי תאורה לארון המטבח יספוקו ע"י הלקוח.</li>
                         <li>ארון רחצה כולל (כיור, ברז, סיפון, מראה) יסופקו ע"י הקבלן.</li>
                         <li>קרמיקות יסופקו ע"י הלקוח.</li>
                         <li>גופי תאורה סטנדרטיים (פנדנטים) יסופקו ע"י הקבלן.</li>
@@ -90,8 +92,18 @@
                     <li>מקדמה ע"ס: 3,000₪ במזומן.</li>
                     <li>בסיום העבודה תשלום נוסף אחרון ע"ס: 8,500₪ במזומן</li>
                 </ul>
-                <p><strong>מחיר העבודה הכללי: 11,500₪</strong>
+                <hr>
+                <p><strong>מחיר העבודה הכללי: <u>11,500₪</u></strong>
                 </p>
+                <hr>
+                <div class="container text-center mt-4">
+                    <!-- Call Me Button -->
+                    <button id="callMeBtn" class="btn btn-primary me-2" onclick="callMe()">Call Me</button>
+                    
+                    <!-- WhatsApp Me Button -->
+                    <button id="whatsAppBtn" class="btn btn-success" onclick="whatsAppMe()">WhatsApp Me</button>
+                    <p class="cRights">© 2024 Etai Hatuel. All rights reserved.</p>
+                </div>
             </div>
         </div>
     </div>
