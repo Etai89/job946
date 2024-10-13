@@ -8,6 +8,6 @@ function callMe() {
 function whatsAppMe() {
     // Replace with your phone number in the WhatsApp link
     const phoneNumber = "972549832002"; // Include country code, e.g., "972501234567"
-    const message = encodeURIComponent("היי איתי, אני מעוניינת להתחיל את העבודה מתי אתה חושב שאתה פנוי?");
+    const message = encodeURIComponent("היי איתי, אהבתי את הצעת המחיר שלך, אפשר לדבר?");
     window.location.href = `https://wa.me/${phoneNumber}?text=${message}`;
 }
